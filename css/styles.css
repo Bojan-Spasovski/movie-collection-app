@@ -228,7 +228,7 @@ hr {
   margin: 0.3rem;
   z-index: 1;
   cursor: pointer;
-  background-image: url("./img/plus.png");
+  background-image: url("/img/plus.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 7px;
@@ -324,7 +324,7 @@ hr {
   margin: 0.3rem;
   z-index: 1;
   cursor: pointer;
-  background-image: url("./img/minus-button.png");
+  background-image: url("/img/minus-button.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 7px;
