@@ -236,6 +236,8 @@ searchMovies.addEventListener("click", () => {
 
 //==== Scroll to top button logic ==== // // ==== Retracting Header Logic ==== //
 
+
+if (window.innerWidth < 500) {
 window.onload = function () {
   document.querySelector(".to-top-btn").style.display = "none";
 };
@@ -270,6 +272,7 @@ window.onscroll = function () {
 
   prevScrollpos = currentScrollPos;
 };
+}
 
 //==== Scroll to top logic ==== //
 
